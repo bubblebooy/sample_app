@@ -10,3 +10,5 @@ class ActiveSupport::TestCase
   include ApplicationHelper
   # Add more helper methods to be used by all tests here...
 end
+
+# bundle exec guard
