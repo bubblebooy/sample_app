@@ -1,0 +1,71 @@
+/* line 2, /home/max/the_odin_project/RubyOnRails-Miscellaneous/private-events/app/assets/stylesheets/custom.scss */
+body {
+  padding-top: 30px;
+}
+/* line 5, /home/max/the_odin_project/RubyOnRails-Miscellaneous/private-events/app/assets/stylesheets/custom.scss */
+body li {
+  list-style: none;
+}
+
+/* line 11, /home/max/the_odin_project/RubyOnRails-Miscellaneous/private-events/app/assets/stylesheets/custom.scss */
+header {
+  background-color: lightgrey;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 15px;
+  /* color: lightgrey; */
+  /* margin-top: 25px; */
+  border-color: lightgrey;
+  border-style: none none solid;
+  /* border-color: lightgrey; */
+}
+/* line 25, /home/max/the_odin_project/RubyOnRails-Miscellaneous/private-events/app/assets/stylesheets/custom.scss */
+header h1 {
+  margin: 0px;
+  padding-top: 5px;
+  float: left;
+}
+/* line 30, /home/max/the_odin_project/RubyOnRails-Miscellaneous/private-events/app/assets/stylesheets/custom.scss */
+header ul {
+  list-style: none;
+}
+/* line 34, /home/max/the_odin_project/RubyOnRails-Miscellaneous/private-events/app/assets/stylesheets/custom.scss */
+header li {
+  float: left;
+  padding: 5px;
+}
+
+/* line 40, /home/max/the_odin_project/RubyOnRails-Miscellaneous/private-events/app/assets/stylesheets/custom.scss */
+.right {
+  float: right;
+  padding-right: 50px;
+  margin: 0;
+}
+
+/* line 47, /home/max/the_odin_project/RubyOnRails-Miscellaneous/private-events/app/assets/stylesheets/custom.scss */
+.navbar {
+  display: block;
+}
+
+/* line 53, /home/max/the_odin_project/RubyOnRails-Miscellaneous/private-events/app/assets/stylesheets/custom.scss */
+.event {
+  background-color: lightgreen;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px;
+  height: 150px;
+}
+/* line 59, /home/max/the_odin_project/RubyOnRails-Miscellaneous/private-events/app/assets/stylesheets/custom.scss */
+.event .title-block {
+  display: block;
+  width: 33%;
+  float: left;
+}
+/* line 64, /home/max/the_odin_project/RubyOnRails-Miscellaneous/private-events/app/assets/stylesheets/custom.scss */
+.event p {
+  width: auto;
+  display: block;
+}
